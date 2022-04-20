@@ -8,11 +8,20 @@ const config: GatsbyConfig = {
     author: "@leodube",
     siteUrl: `https://www.leodube.ca`,
   },
+
   proxy: {
     prefix: "/admin",
     url: process.env.ADMIN_API_URL || "http://localhost:1337",
   },
   plugins: [
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "Keystone",
+        fieldName: "keystone",
+        url: process.env.ADMIN_API_URL,
+      },
+    },
     {
       resolve: "@chakra-ui/gatsby-plugin",
       options: {
