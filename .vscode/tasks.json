@@ -23,9 +23,6 @@
       "label": "Build Frontend",
       "command": "yarn",
       "args": ["build"],
-      "options": {
-        "cwd": "${workspaceFolder}/frontend"
-      },
       "group": {
         "kind": "build"
       },
@@ -70,9 +67,6 @@
       "command": "yarn",
       "args": ["develop"],
       "isBackground": true,
-      "options": {
-        "cwd": "${workspaceFolder}/frontend"
-      },
       "presentation": {
         "group": "none"
       },
