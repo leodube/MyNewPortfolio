@@ -551,7 +551,7 @@ type Seo {
   id: ID!
   page: String
   metaTitle: String
-  metDescription: String
+  metaDescription: String
 }
 
 input SeoWhereUniqueInput {
@@ -565,20 +565,20 @@ input SeoWhereInput {
   id: IDFilter
   page: StringFilter
   metaTitle: StringFilter
-  metDescription: StringFilter
+  metaDescription: StringFilter
 }
 
 input SeoOrderByInput {
   id: OrderDirection
   page: OrderDirection
   metaTitle: OrderDirection
-  metDescription: OrderDirection
+  metaDescription: OrderDirection
 }
 
 input SeoUpdateInput {
   page: String
   metaTitle: String
-  metDescription: String
+  metaDescription: String
 }
 
 input SeoUpdateArgs {
@@ -589,7 +589,7 @@ input SeoUpdateArgs {
 input SeoCreateInput {
   page: String
   metaTitle: String
-  metDescription: String
+  metaDescription: String
 }
 
 """
