@@ -1,0 +1,122 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Backend",
+      "command": "yarn",
+      "args": ["build"],
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "group": {
+        "kind": "build"
+      },
+      "presentation": {
+        "group": "build"
+      },
+      "icon": {
+        "id": "tools",
+        "color": "terminal.ansiBlue"
+      }
+    },
+    {
+      "label": "Build Frontend",
+      "command": "yarn",
+      "args": ["build"],
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "group": {
+        "kind": "build"
+      },
+      "presentation": {
+        "group": "build"
+      },
+      "icon": {
+        "id": "tools",
+        "color": "terminal.ansiMagenta"
+      }
+    },
+    {
+      "label": "Build",
+      "dependsOn": ["Build Backend", "Build Frontend"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "icon": {
+        "id": "tools",
+        "color": "terminal.ansiGreen"
+      }
+    },
+    {
+      "label": "Start Backend",
+      "command": "yarn",
+      "args": ["dev"],
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "presentation": {
+        "group": "none"
+      },
+      "icon": {
+        "id": "debug-start",
+        "color": "terminal.ansiBlue"
+      }
+    },
+    {
+      "label": "Start Frontend",
+      "command": "yarn",
+      "args": ["develop"],
+      "isBackground": true,
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "presentation": {
+        "group": "none"
+      },
+      "icon": {
+        "id": "debug-start",
+        "color": "terminal.ansiMagenta"
+      }
+    },
+    {
+      "label": "Start",
+      "dependsOn": ["Start Backend", "Start Frontend"],
+      "icon": {
+        "id": "debug-start",
+        "color": "terminal.ansiGreen"
+      }
+    },
+    {
+      "label": "Build and Start",
+      "dependsOn": ["Build", "Start"],
+      "dependsOrder": "sequence",
+      "icon": {
+        "id": "run-all",
+        "color": "terminal.ansiGreen"
+      }
+    },
+    {
+      "label": "Start Postgres",
+      "type": "shell",
+      "command": "pg_ctl",
+      "args": ["restart", "-D", "/usr/local/var/postgres"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated",
+        "showReuseMessage": false
+      },
+      "icon": {
+        "id": "database",
+        "color": "terminal.ansiYellow"
+      }
+    }
+  ]
+}
