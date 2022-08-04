@@ -35,6 +35,10 @@ export default config(
       debug: process.env.NODE_ENV !== "production",
       queryLimits: { maxTotalResults: 100 },
       path: "/api/graphql",
+      playground: true,
+      apolloConfig: {
+        introspection: true,
+      },
     },
   })
 );
