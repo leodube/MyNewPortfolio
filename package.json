@@ -4,7 +4,7 @@
   "description": "Personal website and portfolio of Leo Dube.",
   "main": "index.js",
   "scripts": {
-    "build": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:build:*\" --group --timings",
+    "build": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:build:*\" --kill-others --group --timings",
     "build:backend": "cd backend && yarn build",
     "build:frontend": "cd frontend && yarn build",
     "dev": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:dev:*\" --kill-others",
@@ -13,8 +13,7 @@
     "serve": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:serve:*\" --group",
     "serve:backend": "cd backend && yarn start",
     "serve:frontend": "cd frontend && yarn serve",
-    "start": "yarn dev",
-    "start:db": "postgres -D /usr/local/var/postgres"
+    "start": "yarn dev"
   },
   "repository": {
     "type": "git",
