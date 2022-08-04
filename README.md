@@ -1,8 +1,11 @@
 # [leodube.ca](https://leodube.ca)
+
 ##### In Progress
+
 Personal website and portfolio of Leo Dube.
 
 ### Built with:
+
 - Gatsby
 - Keystone
 - Chakra-UI
@@ -12,6 +15,7 @@ Personal website and portfolio of Leo Dube.
 - Storybook
 
 ### Hosted on:
+
 - Netlify
 - Railway
 - Postgres
