@@ -2,6 +2,15 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Clean",
+      "type": "npm",
+      "script": "clean",
+      "icon": {
+        "id": "wrench",
+        "color": "terminal.ansiWhite"
+      }
+    },
+    {
       "label": "Build Backend",
       "command": "yarn",
       "args": ["build"],
