@@ -7,7 +7,7 @@ node_modules
 
 # Gatsby build files
 .cache
-public
+/public/
 
 # Other
 .env
