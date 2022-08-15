@@ -38,7 +38,7 @@
     "@chakra-ui/gatsby-plugin": "^2.0.4",
     "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
+    "@emotion/styled": "^11.10.0",
     "framer-motion": "^6.3.0",
     "gatsby": "^4.12.1",
     "gatsby-source-graphql": "^4.12.1",
