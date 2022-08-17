@@ -10190,7 +10190,7 @@ gatsby-cli@^4.12.1:
     yoga-layout-prebuilt "^1.10.0"
     yurnalist "^2.1.0"
 
-gatsby-core-utils@^3.12.1, gatsby-core-utils@^3.20.0, gatsby-core-utils@^3.21.0, gatsby-core-utils@^3.8.2:
+gatsby-core-utils@^3.12.1, gatsby-core-utils@^3.21.0, gatsby-core-utils@^3.8.2:
   version "3.21.0"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-3.21.0.tgz#5ca118857cf9f59b69f06f2ae886d8182af46515"
   integrity sha512-pCDa9EGU8niRJQVv7ow3ijzmG0PegZaBc5Yt6z4enc4m7Dl5ZT6Edkcw9p8q/FhGiZUkzQhWaRDxUvtaoPwAOQ==
@@ -10333,10 +10333,10 @@ gatsby-sharp@^0.6.1:
     "@types/sharp" "^0.30.0"
     sharp "^0.30.3"
 
-gatsby-source-graphql@^4.20.0:
-  version "4.20.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-4.20.0.tgz#af6a017d9fcbe1daf46863b0f7bd2b90b9dbfb45"
-  integrity sha512-aJTiF3Mrc5uNZuo8rsBxmEA4UsZ9hPs/EFiLQvEsueqvqqRN+EbfabuF9ZfWvveZgf5cxieSEYOevomhLls/Sg==
+gatsby-source-graphql@^4.21.0:
+  version "4.21.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-graphql/-/gatsby-source-graphql-4.21.0.tgz#b545759bc4873867e243e7d78757533bc63b8f4f"
+  integrity sha512-OBuRf76qp9YXuxcScaOVc9ZtlZzW5O9SUMLKOBSrl0F7lCkL6RSLvWt/O4lo81sOAly05nZIbMDHIp7bVBOAmw==
   dependencies:
     "@apollo/client" "^3.5.10"
     "@babel/runtime" "^7.15.4"
@@ -10344,7 +10344,7 @@ gatsby-source-graphql@^4.20.0:
     "@graphql-tools/utils" "^8.6.9"
     "@graphql-tools/wrap" "^8.3.3"
     dataloader "^2.0.0"
-    gatsby-core-utils "^3.20.0"
+    gatsby-core-utils "^3.21.0"
     invariant "^2.2.4"
     node-fetch "^2.6.7"
 
