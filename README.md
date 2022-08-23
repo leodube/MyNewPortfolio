@@ -7,7 +7,7 @@ Personal website and portfolio of Leo Dube.
 ### Built with:
 
 - Gatsby
-- Keystone
+- Strapi
 - Chakra-UI
 - Framer Motion
 - Jest
@@ -18,5 +18,4 @@ Personal website and portfolio of Leo Dube.
 
 - Netlify
 - Railway
-- Postgres
 - Cloudinary
