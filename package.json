@@ -41,7 +41,7 @@
     "@emotion/styled": "^11.10.0",
     "framer-motion": "^6.5.1",
     "gatsby": "^4.21.1",
-    "gatsby-source-graphql": "^4.21.0",
+    "gatsby-source-graphql": "^4.22.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
