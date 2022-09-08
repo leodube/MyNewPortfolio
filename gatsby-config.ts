@@ -25,13 +25,6 @@ const config: GatsbyConfig = {
       resolve: "gatsby-source-strapi",
       options: strapiConfig,
     },
-    {
-      resolve: "@chakra-ui/gatsby-plugin",
-      options: {
-        resetCSS: true,
-        isUsingColorMode: true,
-      },
-    },
   ],
 };
 

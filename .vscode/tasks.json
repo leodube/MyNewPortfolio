@@ -70,7 +70,8 @@
       "icon": {
         "id": "debug-start",
         "color": "terminal.ansiBlue"
-      }
+      },
+      "problemMatcher": []
     },
     {
       "label": "Start Frontend",
@@ -83,7 +84,8 @@
       "icon": {
         "id": "debug-start",
         "color": "terminal.ansiMagenta"
-      }
+      },
+      "problemMatcher": []
     },
     {
       "label": "Start",
