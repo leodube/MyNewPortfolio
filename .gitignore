@@ -10,5 +10,5 @@ node_modules
 /public/
 
 # Other
-.env
+.env*
 .DS_Store

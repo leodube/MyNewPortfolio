@@ -1,6 +1,13 @@
 import type { GatsbyConfig } from "gatsby";
 import "dotenv/config";
 
+const strapiConfig = {
+  apiURL: process.env.STRAPI_API_URL,
+  accessToken: process.env.STRAPI_TOKEN,
+  collectionTypes: [],
+  singleTypes: [],
+};
+
 const config: GatsbyConfig = {
   siteMetadata: {
     title: "Leo Dube",
@@ -15,12 +22,8 @@ const config: GatsbyConfig = {
   },
   plugins: [
     {
-      resolve: "gatsby-source-graphql",
-      options: {
-        typeName: "Keystone",
-        fieldName: "keystone",
-        url: process.env.ADMIN_API_URL,
-      },
+      resolve: "gatsby-source-strapi",
+      options: strapiConfig,
     },
     {
       resolve: "@chakra-ui/gatsby-plugin",

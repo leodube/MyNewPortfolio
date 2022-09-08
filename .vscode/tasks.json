@@ -11,11 +11,11 @@
       }
     },
     {
-      "label": "Build Backend",
+      "label": "Build Admin",
       "command": "yarn",
       "args": ["build"],
       "options": {
-        "cwd": "${workspaceFolder}/backend"
+        "cwd": "${workspaceFolder}/admin"
       },
       "group": {
         "kind": "build"
@@ -45,7 +45,8 @@
     },
     {
       "label": "Build",
-      "dependsOn": ["Build Backend", "Build Frontend"],
+      "dependsOn": ["Build Admin", "Build Frontend"],
+      "dependsOrder": "sequence",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -56,12 +57,12 @@
       }
     },
     {
-      "label": "Start Backend",
+      "label": "Start Admin",
       "command": "yarn",
-      "args": ["dev"],
+      "args": ["develop"],
       "isBackground": true,
       "options": {
-        "cwd": "${workspaceFolder}/backend"
+        "cwd": "${workspaceFolder}/admin"
       },
       "presentation": {
         "group": "none"
@@ -86,7 +87,7 @@
     },
     {
       "label": "Start",
-      "dependsOn": ["Start Backend", "Start Frontend"],
+      "dependsOn": ["Start Admin", "Start Frontend"],
       "icon": {
         "id": "debug-start",
         "color": "terminal.ansiGreen"
