@@ -59,7 +59,7 @@
     {
       "label": "Start Admin",
       "command": "yarn",
-      "args": ["dev"],
+      "args": ["develop"],
       "isBackground": true,
       "options": {
         "cwd": "${workspaceFolder}/admin"
