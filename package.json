@@ -5,15 +5,9 @@
   "description": "Personal website and portfolio of Leo Dube.",
   "author": "Leo Dube",
   "scripts": {
-    "build": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:build:*\" --kill-others --group --timings",
-    "build:admin": "cd admin && yarn build",
-    "build:frontend": "gatsby build",
-    "dev": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:dev:*\" --kill-others",
-    "dev:admin": "cd admin && yarn develop",
-    "dev:frontend": "gatsby develop",
-    "serve": "concurrently -c \"bgBlue.bold,bgMagenta.bold\" \"yarn:serve:*\" --group",
-    "serve:admin": "cd admin && yarn start",
-    "serve:frontend": "gatsby serve",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve",
     "start": "gatsby develop",
     "clean": "gatsby clean",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -35,8 +29,6 @@
     "gatsby"
   ],
   "dependencies": {
-    "@chakra-ui/gatsby-plugin": "^2.0.4",
-    "@chakra-ui/react": "^1.8.8",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "framer-motion": "^6.5.1",

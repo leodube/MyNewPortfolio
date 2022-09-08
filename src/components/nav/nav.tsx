@@ -4,10 +4,6 @@ import { Container } from "@chakra-ui/react";
 import { Divider } from "@chakra-ui/react";
 
 const Nav = () => {
-  const {
-    keystone: { pages },
-  } = useStaticQuery(query);
-
   return (
     <Container maxW="lg" bg="blue.400">
       <p>New component</p>
@@ -17,13 +13,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-const query = graphql`
-  query {
-    keystone {
-      pages {
-        page
-      }
-    }
-  }
-`;
