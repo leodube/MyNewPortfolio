@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
-    "@storybook/addon-actions": "^6.5.11",
+    "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-interactions": "^6.5.11",
     "@storybook/addon-links": "^6.5.10",
@@ -54,7 +54,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@types/jest": "^29.0.1",
+    "@types/jest": "^29.0.2",
     "@types/node": "^18.7.18",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
