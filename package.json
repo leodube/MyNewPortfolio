@@ -37,7 +37,7 @@
     "gatsby-plugin-sharp": "^4.20.0",
     "gatsby-source-filesystem": "^4.20.0",
     "gatsby-source-strapi": "^2.0.0",
-    "gatsby-transformer-remark": "^5.20.0",
+    "gatsby-transformer-remark": "^5.23.0",
     "gatsby-transformer-sharp": "^4.23.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
