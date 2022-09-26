@@ -4574,10 +4574,10 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@>=10.0.0", "@types/node@^18.7.18":
-  version "18.7.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.18.tgz#633184f55c322e4fb08612307c274ee6d5ed3154"
-  integrity sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==
+"@types/node@*", "@types/node@>=10.0.0", "@types/node@^18.7.21":
+  version "18.7.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.21.tgz#63ee6688070e456325b6748dc492a7b948593871"
+  integrity sha512-rLFzK5bhM0YPyCoTC8bolBjMk7bwnZ8qeZUBslBfjZQou2ssJdWslx9CZ8DGM+Dx7QXQiiTVZ/6QO6kwtHkZCA==
 
 "@types/node@^14.0.10":
   version "14.18.12"
@@ -9329,7 +9329,7 @@ gatsby-plugin-typescript@^4.23.0:
     "@babel/runtime" "^7.15.4"
     babel-plugin-remove-graphql-queries "^4.23.0"
 
-gatsby-plugin-utils@^3.17.0, gatsby-plugin-utils@^3.17.1:
+gatsby-plugin-utils@^3.17.1:
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-utils/-/gatsby-plugin-utils-3.17.1.tgz#e662a0536aa9324ae9f1c51345feaf2f5e728a26"
   integrity sha512-88mR4ee4Cd41bIhGpWGLu4WrZqNw1uIxeY7AqGy6E+dXKtrhMvO0nufg8XqgthICfymhtme5jqgcVw/USMROwg==
