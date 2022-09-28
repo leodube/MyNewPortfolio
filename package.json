@@ -34,7 +34,7 @@
     "framer-motion": "^6.5.1",
     "gatsby": "^4.23.1",
     "gatsby-plugin-image": "^2.23.1",
-    "gatsby-plugin-sharp": "^4.23.1",
+    "gatsby-plugin-sharp": "^4.24.0",
     "gatsby-source-filesystem": "^4.23.0",
     "gatsby-source-strapi": "^2.0.0",
     "gatsby-transformer-remark": "^5.23.1",
